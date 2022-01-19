@@ -71,7 +71,7 @@ export default function SignInSide() {
         <Container component="main" maxWidth="xs">
           <CssBaseline />
           <Grid item >
-            <Link href="/home" variant="body2">
+            <Link href="/" variant="body2">
               <Avatar className={classes.home}>
                 <HomeIcon />
               </Avatar>

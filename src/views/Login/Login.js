@@ -69,7 +69,7 @@ export default function SignInSide() {
       <Grid item xs={false} sm={4} md={7} className={classes.image} />
       <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
         <Grid item >
-          <Link href="/home" variant="body2">
+          <Link href="/" variant="body2">
             <Avatar className={classes.home}>
               <HomeIcon />
             </Avatar>
