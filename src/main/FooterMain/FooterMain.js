@@ -19,35 +19,36 @@ export default function FooterMain() {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-                <FooterLink to='/signin'>How it works</FooterLink>
-                <FooterLink to='/signin'>Tetimonials</FooterLink>
-                <FooterLink to='/signin'>Careers</FooterLink>
-                <FooterLink to='/signin'>Investors</FooterLink>
-                <FooterLink to='/signin'>Terms of Services</FooterLink>
+              <FooterLinkTitle>Seções</FooterLinkTitle>
+                <FooterLink to='/'>Home</FooterLink>
+                <FooterLink to='/about'>Quem Somos</FooterLink>
+                <FooterLink to='/agenda'>Anart Agenda</FooterLink>
+                <FooterLink to='/services'>Serviços</FooterLink>
+                <FooterLink to='/team'>Nossa Equipe</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle>Contact Us</FooterLinkTitle>
-                <FooterLink to='/signin'>Contact</FooterLink>
-                <FooterLink to='/signin'>Support</FooterLink>
-                <FooterLink to='/signin'>Destinations</FooterLink>
-                <FooterLink to='/signin'>Sponsorships</FooterLink>
+              <FooterLinkTitle>Fale Conosco</FooterLinkTitle>
+                <FooterLink to='/signin'>Contato</FooterLink>
+                <FooterLink to='/signin'>Suporte</FooterLink>
+                <FooterLink to='/signin'>Relatar Problema</FooterLink>
+                <FooterLink to='/signin'>Feedback</FooterLink>
+                <FooterLink to='/signin'>Avalie nosso serviço</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Videos</FooterLinkTitle>
-                <FooterLink to='/signin'>Submit Video</FooterLink>
-                <FooterLink to='/signin'>Ambassadors</FooterLink>
-                <FooterLink to='/signin'>Agency</FooterLink>
-                <FooterLink to='/signin'>Influencer</FooterLink>
+              <FooterLinkTitle>Outras páginas</FooterLinkTitle>
+                <FooterLink to='/signin'>Login</FooterLink>
+                <FooterLink to='/signin'>Cadastro</FooterLink>
+                <FooterLink to='/signin'>Anart Agenda</FooterLink>
+                <FooterLink to='/signin'>Quem somos</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle>Bussiness</FooterLinkTitle>
-                <FooterLink to='/signin'>Como te voy olvidar?</FooterLink>
-                <FooterLink to='/signin'>Como te voy olvidar?</FooterLink>
-                <FooterLink to='/signin'>Como te voy olvidar?</FooterLink>
-                <FooterLink to='/signin'>Como te voy olvidar?</FooterLink>
+              <FooterLinkTitle>Parceiros</FooterLinkTitle>
+                <FooterLink to='/signin'>Eduardo Dalto</FooterLink>
+                <FooterLink to='/signin'>Total</FooterLink>
+                <FooterLink to='/signin'>Marivaldo</FooterLink>
+                <FooterLink to='/signin'>Dan Eletros</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
@@ -58,7 +59,7 @@ export default function FooterMain() {
             </SocialLogo>
             <WebsiteRights> 
               &copy; Anart Ltda {new Date().getFullYear()} 
-              All rights reserved.
+              - All rights reserved.
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='/' target='_blank' aria-label='Facebook'>

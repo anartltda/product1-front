@@ -6,8 +6,9 @@ import FooterMain from "main/FooterMain/FooterMain.js";
 import SideBarMain from "main/SideBarMain/SideBarMain.js";
 import HeroMain from "main/HeroMain/HeroMain";
 import InfoMain from "main/InfoMain/InfoMain";
-import { homeObjOne, homeObjTwo, homeObjThree } from "main/InfoMain/Data";
+import { homeObjOne, homeObjTwo } from "main/InfoMain/Data";
 import Services from "main/ServicesMain/ServicesMain";
+import TeamMain from "main/TeamMain/TeamMain"
 
 const styles = {
     root:{
@@ -34,7 +35,7 @@ export default function Home() {
             <InfoMain {...homeObjOne}/>
             <InfoMain {...homeObjTwo}/>
             <Services/>
-            <InfoMain {...homeObjThree}/>
+            <TeamMain />
             <FooterMain/>
         </div>
     );
