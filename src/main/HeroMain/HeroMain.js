@@ -15,7 +15,7 @@ const HeroMain = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
             </HeroBg>
             <HeroContent>
-                <HeroH1> Anart Ltda </HeroH1>
+                <HeroH1> anart </HeroH1>
                 <HeroP> Soluções Tecnológicas e Sistema de Agendamento </HeroP>
                 <HeroBtnWrapper>
                     <Button 

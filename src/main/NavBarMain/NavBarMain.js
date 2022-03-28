@@ -31,7 +31,7 @@ export default function NavBarMain(prop) {
     <>
       <Nav scrollNav={scrollNav}>
         <NavBarContainer>
-          <NavLogo to='/' onClick={toggleHome}>Anart</NavLogo>
+          <NavLogo to='/' onClick={toggleHome}>anart</NavLogo>
           <MobileIcon onClick={prop.toggle}>
             <FaBars/>
           </MobileIcon>
